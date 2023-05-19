@@ -7,3 +7,10 @@
 
 # SBT
 target/
+
+# VS Code
+.bloop/
+.metals/
+.vscode/
+project/metals.sbt
+project/project/metals.sbt
