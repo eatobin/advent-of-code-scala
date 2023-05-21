@@ -2,7 +2,7 @@ package AdventOfCode2019
 
 object Day01:
   def fuel(mass: Int): Int = mass / 3 - 2
-  def tsiolkovsky(mass: Int): Int =
+  private def tsiolkovsky(mass: Int): Int =
     if mass < 7 then 0 else fuel(mass) + tsiolkovsky(fuel(mass))
 
   def part1(input: Seq[Int]): Int = input.map(fuel).sum

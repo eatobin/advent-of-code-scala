@@ -7,7 +7,8 @@ scalacOptions ++= Seq(
   "-explain",
   "-explaintypes",
   "-feature",
-  "-unchecked")
+  "-unchecked"
+)
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.16" % Test
