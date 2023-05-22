@@ -14,5 +14,5 @@ object Day01:
       .getLines()
       .map(_.toInt)
       .toSeq
-    println(part1(data))
-    println(part2(data))
+    println(part1(data)) // 3337766
+    println(part2(data)) // 5003788
