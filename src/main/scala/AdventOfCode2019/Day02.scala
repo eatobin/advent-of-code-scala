@@ -3,7 +3,7 @@ package AdventOfCode2019
 import scala.annotation.tailrec
 
 object Day02:
-  def exec(code: Seq[Int]): Int =
+  private def exec(code: Seq[Int]): Int =
     @tailrec
     def helper(ip: Int, code: Seq[Int]): Int =
       code(ip) match
