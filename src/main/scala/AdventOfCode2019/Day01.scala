@@ -7,6 +7,7 @@ object Day01:
 
   def part1(input: Seq[Int]): Int = input.map(fuel).sum
   def part2(input: Seq[Int]): Int = input.map(tsiolkovsky).sum
+  def part3(input: Int): Int = input + 9
 
   def main(args: Array[String]): Unit =
     val data = io.Source
