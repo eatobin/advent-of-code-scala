@@ -12,3 +12,7 @@ class Day01Suite extends AnyFunSuite:
   test("Part 2 should handle sample input correctly") {
     assert(Day01.part2(sample) == 50_346)
   }
+
+  test("Part 3 should handle sample input correctly") {
+    assert(Day01.part3(sample) == 50_346)
+  }

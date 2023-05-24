@@ -20,7 +20,7 @@ object Day01:
 
     fuelAccumulator(m = mass, accum = 0)
 
-  private def part3(input: Seq[Int]): Int = input.map(gasPlus2).sum
+  def part3(input: Seq[Int]): Int = input.map(gasPlus2).sum
 
   def main(args: Array[String]): Unit =
     val data = io.Source
