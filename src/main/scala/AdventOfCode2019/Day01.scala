@@ -17,8 +17,8 @@ object Day01:
       fuelAccumulator(mass = int, accum = 0)
   end extension
 
-  private def part1(input: Seq[Int]): Int = input.map(fuel).sum
-  private def part2(input: Seq[Int]): Int = input.map(fuelPlusFuel).sum
+  def part1(input: Seq[Int]): Int = input.map(fuel).sum
+  def part2(input: Seq[Int]): Int = input.map(fuelPlusFuel).sum
 
   def main(args: Array[String]): Unit =
     val data = io.Source
